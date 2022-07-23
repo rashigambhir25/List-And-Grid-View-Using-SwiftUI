@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F14EEDF2876EA3B00B3C5CE /* ProductRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F14EEDE2876EA3B00B3C5CE /* ProductRowList.swift */; };
+		7F14EEE32878061B00B3C5CE /* ProductRowGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F14EEE22878061B00B3C5CE /* ProductRowGrid.swift */; };
 		7F6A9A91287443DC0006E292 /* LIstAndGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A9A90287443DC0006E292 /* LIstAndGridApp.swift */; };
 		7F6A9A93287443DC0006E292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A9A92287443DC0006E292 /* ContentView.swift */; };
 		7F6A9A95287443DE0006E292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6A9A94287443DE0006E292 /* Assets.xcassets */; };
 		7F6A9A98287443DE0006E292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6A9A97287443DE0006E292 /* Preview Assets.xcassets */; };
+		7F6A9A9F287443F40006E292 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A9A9E287443F40006E292 /* Data.swift */; };
+		7F6A9AA12874445C0006E292 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A9AA02874445C0006E292 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F14EEDB2876DEBB00B3C5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F14EEDE2876EA3B00B3C5CE /* ProductRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowList.swift; sourceTree = "<group>"; };
+		7F14EEE22878061B00B3C5CE /* ProductRowGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowGrid.swift; sourceTree = "<group>"; };
 		7F6A9A8D287443DC0006E292 /* LIstAndGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIstAndGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6A9A90287443DC0006E292 /* LIstAndGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstAndGridApp.swift; sourceTree = "<group>"; };
 		7F6A9A92287443DC0006E292 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F6A9A94287443DE0006E292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F6A9A97287443DE0006E292 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F6A9A9E287443F40006E292 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7F6A9AA02874445C0006E292 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,10 @@
 		7F6A9A84287443DC0006E292 = {
 			isa = PBXGroup;
 			children = (
+				7F14EEE22878061B00B3C5CE /* ProductRowGrid.swift */,
+				7F14EEDE2876EA3B00B3C5CE /* ProductRowList.swift */,
+				7F6A9AA02874445C0006E292 /* Manager.swift */,
+				7F6A9A9E287443F40006E292 /* Data.swift */,
 				7F6A9A8F287443DC0006E292 /* LIstAndGrid */,
 				7F6A9A8E287443DC0006E292 /* Products */,
 			);
@@ -51,6 +64,7 @@
 		7F6A9A8F287443DC0006E292 /* LIstAndGrid */ = {
 			isa = PBXGroup;
 			children = (
+				7F14EEDB2876DEBB00B3C5CE /* Info.plist */,
 				7F6A9A90287443DC0006E292 /* LIstAndGridApp.swift */,
 				7F6A9A92287443DC0006E292 /* ContentView.swift */,
 				7F6A9A94287443DE0006E292 /* Assets.xcassets */,
@@ -138,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6A9A93287443DC0006E292 /* ContentView.swift in Sources */,
+				7F6A9A9F287443F40006E292 /* Data.swift in Sources */,
+				7F14EEE32878061B00B3C5CE /* ProductRowGrid.swift in Sources */,
+				7F14EEDF2876EA3B00B3C5CE /* ProductRowList.swift in Sources */,
 				7F6A9A91287443DC0006E292 /* LIstAndGridApp.swift in Sources */,
+				7F6A9AA12874445C0006E292 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +289,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LIstAndGrid/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LIstAndGrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LIstAndGrid/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LIstAndGrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
